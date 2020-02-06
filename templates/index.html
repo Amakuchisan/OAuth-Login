@@ -1,0 +1,16 @@
+{{define "top"}}
+  {{template "head" .}}
+  <img src={{.avatarURL}} width="10%">
+  <h2>Hello, {{.name}}</h2>
+  Your Email : {{.email}}
+{{end}}
+
+{{define "welcome"}}
+	{{template "head" .}}
+	<h1>ようこそ</h1>
+	<ul>
+		<li>
+			<a href="/auth/login/google">Googleでログイン</a>
+		</li>
+	</ul>
+{{end}}
