@@ -5,7 +5,7 @@
 ## 実行
 
 ```
-$ git clone git@github.com:Amakuchisan/OAuth-Login.git
+$ git clone https://github.com/Amakuchisan/OAuth-Login.git
 ```
 
 ### .envファイルの作成
