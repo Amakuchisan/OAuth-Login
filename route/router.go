@@ -27,7 +27,7 @@ func (t *TemplateRenderer) Render(w io.Writer, name string, data interface{}, c 
 	return t.templates.ExecuteTemplate(w, name, data)
 }
 
-// Echo -- instance for initialization
+// Echo -- instance for the echo web framework
 var Echo *echo.Echo
 
 func init() {
