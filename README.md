@@ -2,7 +2,7 @@
 
 このリポジトリのfirst commitは、シェルスクリプトマガジン vol.65の`香川大学SLPからお届け！`に掲載されたソースコードです。
 
-## 実行
+## Getting Started
 
 ```
 $ git clone https://github.com/Amakuchisan/OAuth-Login.git
@@ -17,7 +17,8 @@ $ git clone https://github.com/Amakuchisan/OAuth-Login.git
 ### Running
 
 ```
-$ go run main.go
+$ go build
+$ ./OAuth-Login
 
 
    ____    __
